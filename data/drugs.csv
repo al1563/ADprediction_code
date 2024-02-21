@@ -1,0 +1,10 @@
+person_id,drug_concept_id,drug_type_concept_id,drug_exposure_start_date,mindatept,drug_exposure_end_date,effective_drug_dose,dose_unit_source_value,refills,quantity,sig,route_source_value,drug_concept_id_value
+3,1742255,32818,8/17/00,1/1/20,8/17/00,,,,1,,,levofloxacin 500 MG Oral Tablet
+3,40226969,32818,8/17/00,1/1/20,8/17/00,,,,1,,,lidocaine hydrochloride 0.02 MG/MG Topical Gel
+3,1363059,32839,7/21/18,1/1/20,7/21/18,,,,30,1 TABLET,,doxazosin 4 MG Oral Tablet
+3,40223778,32839,11/9/18,1/1/20,11/9/18,,,,90,,,donepezil hydrochloride 5 MG Oral Tablet
+3,1363059,32839,2/22/19,1/1/20,2/22/20,,,,30,1 TABLET,,doxazosin 4 MG Oral Tablet
+3,40223768,32839,1/25/22,1/1/20,1/25/22,,,,100,1 TABLET,,donepezil hydrochloride 10 MG Oral Tablet
+3,1363059,32839,4/12/25,1/1/20,4/12/25,,,,90,,,doxazosin 4 MG Oral Tablet
+3,40223768,32839,12/12/25,1/1/20,12/12/25,,,,100,1 TABLET,,donepezil hydrochloride 10 MG Oral Tablet
+3,1363059,32839,4/18/26,1/1/20,4/18/26,350,,3,90,1 TABLET,,doxazosin 4 MG Oral Tablet

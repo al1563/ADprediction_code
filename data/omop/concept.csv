@@ -1,0 +1,100 @@
+,concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept,concept_code,valid_start_date,valid_end_date,invalid_reason
+0,44123202,Lead iodide preparation 6 X Oral Solution,Drug,RxNorm Extension,Clinical Drug,S,OMOP1117833,2017-08-24,2099-12-31,
+1,45376822,TESTOSTERONE POWDER,Drug,NDC,11-digit NDC,,51927432400,2013-08-05,2099-12-31,
+2,45376825,Sulfacetamide Sodium 100 MG/ML Ophthalmic Solution,Drug,NDC,11-digit NDC,,51944040542,2010-09-01,2011-01-01,D
+3,45376836,Phenylephrine 100 MG/ML Ophthalmic Solution,Drug,NDC,11-digit NDC,,51944447542,2007-06-01,2011-01-01,D
+4,45376838,60 ACTUAT Fluticasone propionate 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair 500/50],Drug,NDC,11-digit NDC,,51947069700,2010-02-01,2010-09-01,D
+5,45376839,Sumatriptan 50 MG Oral Tablet [Imitrex],Drug,NDC,11-digit NDC,,51947073601,2007-06-01,2010-09-01,D
+6,45376841,Ranitidine 25 MG/ML Injectable Solution [Zantac],Drug,NDC,11-digit NDC,,51947784003,2007-06-01,2010-09-01,D
+7,45376852,Carbinoxamine maleate 0.8 MG/ML Oral Solution,Drug,NDC,11-digit NDC,,51991022816,2010-10-01,2013-09-01,D
+8,45376862,Water 990 MG/ML Ophthalmic Irrigation Solution,Drug,NDC,11-digit NDC,,51997003505,2019-06-01,2099-12-31,
+9,45376870,Acetic Acid 20 MG/ML / Benzocaine 14 MG/ML Otic Suspension,Drug,NDC,11-digit NDC,,52083002215,2007-06-01,2009-12-01,D
+10,45376884,Divalproex Sodium 250 MG Delayed Release Oral Tablet,Drug,NDC,11-digit NDC,,52125013402,2013-04-01,2016-04-01,D
+11,45376888,pregabalin 150 MG Oral Capsule [Lyrica],Drug,NDC,11-digit NDC,,52125025302,2013-07-01,2018-04-01,D
+12,45376892,Ondansetron 2 MG/ML Injectable Solution,Drug,NDC,11-digit NDC,,52125033440,2016-04-01,2016-04-01,D
+13,45376897,Sulfacetamide Sodium 100 MG/ML Ophthalmic Solution,Drug,NDC,11-digit NDC,,52125042415,2014-01-01,2017-01-01,D
+14,45376901,24 HR Bupropion Hydrochloride 300 MG Extended Release Oral Tablet,Drug,NDC,11-digit NDC,,52125050802,2013-07-01,2016-05-01,D
+15,45376910,Spironolactone 25 MG Oral Tablet,Drug,NDC,11-digit NDC,,52125058402,2013-07-01,2017-01-01,D
+16,45376913,Dicyclomine Hydrochloride 20 MG Oral Tablet,Drug,NDC,11-digit NDC,,52125066602,2013-10-01,2018-04-01,D
+17,45376919,Pseudoephedrine 60 MG Oral Tablet,Drug,NDC,11-digit NDC,,52152000505,2007-06-01,2011-01-01,D
+18,45376923,Cyclandelate 400 MG Oral Capsule,Drug,NDC,11-digit NDC,,52152008302,2007-06-01,2011-01-01,D
+19,45376927,methenamine mandelate 500 MG Oral Tablet,Drug,NDC,11-digit NDC,,52152011105,2010-06-01,2011-02-01,D
+20,45376930,Mirtazapine 30 MG Oral Tablet,Drug,NDC,11-digit NDC,,52152022704,2007-06-01,2011-01-01,D
+21,45376958,Diphenhydramine Hydrochloride 25 MG Oral Capsule,Drug,NDC,11-digit NDC,,52297026267,2015-12-01,2016-08-01,D
+22,45376963,Vitamin E 1000 UNT Oral Capsule,Drug,NDC,11-digit NDC,,52297061671,2011-09-01,2015-04-01,D
+23,45376964,Isopropyl Alcohol 0.7 ML/ML Topical Solution,Drug,NDC,11-digit NDC,,52297091408,2008-11-01,2011-01-01,D
+24,45376969,Cephalexin 250 MG Oral Capsule,Drug,NDC,11-digit NDC,,52343000101,2010-08-01,2019-06-01,D
+25,45376970,carvedilol 6.25 MG Oral Tablet,Drug,NDC,11-digit NDC,,52343002701,2013-05-01,2099-12-31,
+26,45376980,erythromycin stearate 250 MG Oral Tablet,Drug,NDC,11-digit NDC,,52347634601,2007-06-01,2011-01-01,D
+27,45376996,CAPSULE #3,Drug,NDC,11-digit NDC,,52372600300,2013-08-05,2099-12-31,
+28,45377008,Lidocaine Hydrochloride 10 MG/ML Injectable Solution,Drug,NDC,11-digit NDC,,52406005550,2010-10-01,2011-01-01,D
+29,45377029,Ibuprofen 800 MG Oral Tablet,Drug,NDC,11-digit NDC,,52446054828,2007-06-01,2011-01-01,D
+30,45377030,Betamethasone 1 MG/ML Topical Cream,Drug,NDC,11-digit NDC,,52446090383,2007-06-01,2011-01-01,D
+31,45377035,Hydroxyprogesterone 250 MG/ML Injectable Solution,Drug,NDC,11-digit NDC,,52474112902,2007-06-01,2011-01-01,D
+32,45377043,Aspirin 325 MG / Codeine Phosphate 60 MG Oral Tablet,Drug,NDC,11-digit NDC,,52493011112,2010-08-01,2011-01-01,D
+33,45377046,Fenoprofen 600 MG Oral Tablet,Drug,NDC,11-digit NDC,,52493014030,2007-06-01,2011-01-01,D
+34,45377079,Captopril 12.5 MG Oral Tablet,Drug,NDC,11-digit NDC,,52544068810,2007-06-01,2011-02-01,D
+35,45377113,Guaifenesin 400 MG / Phenylpropanolamine 75 MG Extended Release Tablet,Drug,NDC,11-digit NDC,,52555038505,2007-06-01,2011-01-01,D
+36,45377122,HM CHILD COLD-ALLERGY ELIXIR,Drug,NDC,11-digit NDC,,52569013357,2013-08-05,2099-12-31,
+37,45377125,HM DIGITAL THERMOMETER,Device,NDC,Device,S,52569013478,2013-08-05,2099-12-31,
+38,45377127,HM GAS RELIEF 80 MG TAB CHEW,Drug,NDC,11-digit NDC,,52569013533,2013-08-05,2099-12-31,
+39,45377131,HM SENNA 8.6 MG TABLET,Drug,NDC,11-digit NDC,,52569013564,2013-08-05,2099-12-31,
+40,45377156,Edetic Acid 150 MG/ML Injectable Solution,Drug,NDC,11-digit NDC,,52710027720,2007-06-01,2011-01-01,D
+41,45377161,Diazepam 5 MG Oral Tablet,Drug,NDC,11-digit NDC,,52718015820,2007-06-01,2011-01-01,D
+42,45377173,Ferrous fumarate 324 MG / Folic Acid 1 MG Oral Tablet [Hemocyte-F],Drug,NDC,11-digit NDC,,52747030660,2007-06-01,2011-01-01,D
+43,45377177,Hydroxyzine Hydrochloride 50 MG/ML Injectable Solution,Drug,NDC,11-digit NDC,,52765017110,2010-07-01,2011-01-01,D
+44,45377179,Progesterone 50 MG/ML Injectable Solution,Drug,NDC,11-digit NDC,,52765037910,2007-06-01,2009-12-01,D
+45,45377231,Acetaminophen 500 MG / Hydrocodone Bitartrate 7.5 MG Oral Tablet [Lortab 7.5/500],Drug,NDC,11-digit NDC,,52959018612,2009-08-01,2017-01-01,D
+46,45377235,Prednisone 5 MG Oral Tablet,Drug,NDC,11-digit NDC,,52959022021,2007-06-01,2099-12-31,
+47,45377237,Ketorolac Tromethamine 10 MG Oral Tablet [Toradol],Drug,NDC,11-digit NDC,,52959022415,2009-10-01,2016-01-01,D
+48,45377240,Fluoxetine 20 MG Oral Capsule [Prozac],Drug,NDC,11-digit NDC,,52959023314,2007-06-01,2099-12-31,
+49,45377242,Ketoprofen 75 MG Oral Capsule,Drug,NDC,11-digit NDC,,52959024530,2007-06-01,2099-12-31,
+50,45377253,Acetaminophen 325 MG Oral Tablet,Drug,NDC,11-digit NDC,,52959030230,2007-06-01,2099-12-31,
+51,45377258,Cimetidine 200 MG Oral Tablet,Drug,NDC,11-digit NDC,,52959037416,2007-06-01,2013-07-01,D
+52,45377262,Acetaminophen 650 MG / Hydrocodone Bitartrate 10 MG Oral Tablet [Lorcet 10/650],Drug,NDC,11-digit NDC,,52959040320,2009-08-01,2016-12-01,D
+53,45377267,Desipramine Hydrochloride 25 MG Oral Tablet,Drug,NDC,11-digit NDC,,52959045830,2011-05-01,2099-12-31,
+54,45377270,Cloxacillin 500 MG Oral Capsule,Drug,NDC,11-digit NDC,,52959046628,2007-06-01,2011-01-01,D
+55,45377273,Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet [Augmentin],Drug,NDC,11-digit NDC,,52959047815,2008-12-01,2099-12-31,
+56,45377281,Diclofenac Sodium 50 MG / Misoprostol 0.2 MG Delayed Release Oral Tablet [Arthrotec],Drug,NDC,11-digit NDC,,52959053160,2012-12-01,2099-12-31,
+57,45377285,celecoxib 200 MG Oral Capsule [Celebrex],Drug,NDC,11-digit NDC,,52959053905,2007-06-01,2099-12-31,
+58,45377292,Amoxicillin 50 MG/ML / Clavulanate 12.5 MG/ML Oral Suspension [Augmentin],Drug,NDC,11-digit NDC,,52959061602,2007-06-01,2099-12-31,
+59,42025638,Los Tojos,Geography,OSM,8th level,S,345457,1970-01-01,2099-12-31,
+60,42025640,Mambrilla de Castrejxc3xb3n,Geography,OSM,8th level,S,345548,1970-01-01,2099-12-31,
+61,42025647,Luceni,Geography,OSM,8th level,S,344829,1970-01-01,2099-12-31,
+62,42025653,Lucillo,Geography,OSM,8th level,S,340904,1970-01-01,2099-12-31,
+63,42025656,Lucillos,Geography,OSM,8th level,S,342221,1970-01-01,2099-12-31,
+64,42025669,Lumpiaque,Geography,OSM,8th level,S,340456,1970-01-01,2099-12-31,
+65,42025690,Macharaviaya,Geography,OSM,8th level,S,340745,1970-01-01,2099-12-31,
+66,42025697,Madrid,Geography,OSM,8th level,S,5326784,1970-01-01,2099-12-31,
+67,42025699,Madrigal de las Altas Torres,Geography,OSM,8th level,S,346573,1970-01-01,2099-12-31,
+68,42025706,Pozuelo del Pxc3xa1ramo,Geography,OSM,8th level,S,344766,1970-01-01,2099-12-31,
+69,42025721,Maixc3xa0 de Montcal,Geography,OSM,8th level,S,345040,1970-01-01,2099-12-31,
+70,42025723,Mainar,Geography,OSM,8th level,S,340452,1970-01-01,2099-12-31,
+71,42025724,Maire de Castroponce,Geography,OSM,8th level,S,343831,1970-01-01,2099-12-31,
+72,42025731,Malanquilla,Geography,OSM,8th level,S,340453,1970-01-01,2099-12-31,
+73,42025733,Majaelrayo,Geography,OSM,8th level,S,346656,1970-01-01,2099-12-31,
+74,42025748,Malpartida de Corneja,Geography,OSM,8th level,S,346575,1970-01-01,2099-12-31,
+75,42025750,Malpartida de la Serena,Geography,OSM,8th level,S,341352,1970-01-01,2099-12-31,
+76,42025757,Montoro,Geography,OSM,8th level,S,342887,1970-01-01,2099-12-31,
+77,42025760,Manacor,Geography,OSM,8th level,S,342599,1970-01-01,2099-12-31,
+78,42025761,Maxc3xb1aria,Geography,OSM,8th level,S,339952,1970-01-01,2099-12-31,
+79,42025762,Manchita,Geography,OSM,8th level,S,341353,1970-01-01,2099-12-31,
+80,42025769,Mancor de la Vall,Geography,OSM,8th level,S,342601,1970-01-01,2099-12-31,
+81,42025781,Maxc3xb1xc3xb3n,Geography,OSM,8th level,S,341952,1970-01-01,2099-12-31,
+82,42025787,Mansilla de la Sierra,Geography,OSM,8th level,S,345202,1970-01-01,2099-12-31,
+83,42025794,Sarrixc3xa0,Geography,OSM,10th level,S,4132213,1970-01-01,2099-12-31,
+84,42025796,Marxc3xa7xc3xa0,Geography,OSM,8th level,S,345942,1970-01-01,2099-12-31,
+85,42025797,Manzanilla,Geography,OSM,8th level,S,347725,1970-01-01,2099-12-31,
+86,42025798,Marchagaz,Geography,OSM,8th level,S,345827,1970-01-01,2099-12-31,
+87,42025812,Margalef,Geography,OSM,8th level,S,342456,1970-01-01,2099-12-31,
+88,42025829,Marracos,Geography,OSM,8th level,S,348009,1970-01-01,2099-12-31,
+89,42025846,Sector d - Dunas,Geography,OSM,10th level,S,6280787,1970-01-01,2099-12-31,
+90,42025863,Maside,Geography,OSM,8th level,S,344534,1970-01-01,2099-12-31,
+91,42025868,Masquefa,Geography,OSM,8th level,S,340791,1970-01-01,2099-12-31,
+92,42025869,Miraveche,Geography,OSM,8th level,S,339713,1970-01-01,2099-12-31,
+93,42025871,Massalcoreig,Geography,OSM,8th level,S,342139,1970-01-01,2099-12-31,
+94,42025878,Matabuena,Geography,OSM,8th level,S,341451,1970-01-01,2099-12-31,
+95,42025881,Matadepera,Geography,OSM,8th level,S,345823,1970-01-01,2099-12-31,
+96,42025883,Matallana de Torxc3xado,Geography,OSM,8th level,S,344325,1970-01-01,2099-12-31,
+97,42025884,Matamala de Almazxc3xa1n,Geography,OSM,8th level,S,348063,1970-01-01,2099-12-31,
+98,42025890,Matarxc3xb3,Geography,OSM,8th level,S,345587,1970-01-01,2099-12-31,

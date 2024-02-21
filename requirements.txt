@@ -1,0 +1,13 @@
+scikit-learn==0.24.2
+joblib==1.1.0
+json5==0.9.6
+matplotlib==3.3.4
+numpy==1.19.5
+openpyxl==3.0.9
+pandas==1.1.5
+scipy==1.5.4
+seaborn==0.11.2
+tableone==0.7.10
+tqdm==4.62.3
+xlrd==2.0.1
+pyodbc

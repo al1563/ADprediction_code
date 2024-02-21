@@ -1,0 +1,72 @@
+person_id,condition_concept_id,condition_start_date,mindatept,condition_concept_id_value
+1,37312105,1995-11-23,2015-02-24,Strain of rotator cuff of shoulder
+1,4172970,1995-11-23,2015-02-24,Nontraumatic rotator cuff tear
+1,374366,2006-11-23,2015-02-24,Sensorineural hearing loss
+1,443454,2007-11-23,2015-02-24,Cerebral infarction
+1,321887,2007-11-25,2015-02-24,Disorder of artery
+1,4110192,2008-11-25,2015-02-24,Cerebral infarction due to thrombosis of cerebral arteries
+1,432867,2010-11-25,2015-02-24,Hyperlipidemia
+1,40484908,2015-02-22,2015-02-24,Imaging of brain abnormal
+1,432867,2015-02-22,2015-02-24,Hyperlipidemia
+1,134057,2015-02-22,2015-02-24,Disorder of cardiovascular system
+1,439795,2015-02-22,2015-02-24,Minimal cognitive impairment
+1,3655355,2015-02-22,2015-02-24,Erectile dysfunction
+1,80813,2015-02-22,2015-02-24,Lumbosacral spondylosis without myelopathy
+1,443454,2015-02-22,2015-02-24,Cerebral infarction
+1,439795,2015-02-22,2015-02-24,Minimal cognitive impairment
+1,4297400,2015-02-22,2015-02-24,Mild cognitive disorder
+1,321887,2015-02-22,2015-02-24,Disorder of artery
+1,37312105,2015-02-22,2015-02-24,Strain of rotator cuff of shoulder
+1,437827,2015-02-22,2015-02-24,Pure hypercholesterolemia
+1,43021237,2015-02-22,2015-02-24,Secondary erectile dysfunction
+1,134057,2015-02-22,2015-02-24,Disorder of cardiovascular system
+1,372887,2015-02-24,2015-02-24,Disorder of brain
+1,4172970,2015-02-24,2015-02-24,Nontraumatic rotator cuff tear
+1,374366,2015-02-24,2015-02-24,Sensorineural hearing loss
+1,4110192,2015-02-24,2015-02-24,Cerebral infarction due to thrombosis of cerebral arteries
+1,437827,2015-02-24,2015-02-24,Pure hypercholesterolemia
+1,443432,2015-02-24,2015-02-24,Impaired cognition
+1,4346975,2015-02-24,2015-02-24,Lumbar spondylosis
+1,4297400,2015-02-24,2015-02-24,Mild cognitive disorder
+2,4297400,2006-01-04,2009-01-20,Mild cognitive disorder
+2,439795,2006-01-04,2009-01-20,Minimal cognitive impairment
+3,4254485,2005-05-10,2013-08-09,Finding related to attentiveness
+3,381591,2005-05-10,2013-08-09,Cerebrovascular disease
+3,4297400,2005-05-10,2013-08-09,Mild cognitive disorder
+3,255573,2005-05-10,2013-08-09,Chronic obstructive lung disease
+3,4282316,2005-05-10,2013-08-09,Recurrent major depression
+3,439795,2005-05-10,2013-08-09,Minimal cognitive impairment
+3,374009,2005-05-10,2013-08-09,Organic mental disorder
+3,317009,2005-05-10,2013-08-09,Asthma
+3,4055870,2005-05-28,2013-08-09,"Superficial injury of lower limb, excluding foot"
+3,444249,2005-05-28,2013-08-09,Abrasion and/or friction burn with infection
+3,439795,2005-05-28,2013-08-09,Minimal cognitive impairment
+3,439199,2005-06-04,2013-08-09,Open wound without complication
+3,432795,2005-06-04,2013-08-09,Traumatic AND/OR non-traumatic injury
+3,444130,2005-06-06,2013-08-09,Injury of foot
+3,77162,2005-06-06,2013-08-09,Injury of ankle
+3,44782715,2006-06-06,2013-08-09,Chronic peripheral venous hypertension with lower extremity complication
+3,4313767,2006-06-06,2013-08-09,Chronic peripheral venous hypertension
+3,46270564,2006-06-06,2013-08-09,Chronic ulcer of calf
+3,376229,2006-06-06,2013-08-09,Abnormal involuntary movement
+3,444131,2006-06-06,2013-08-09,Injury of lower leg
+3,4116485,2006-06-06,2013-08-09,Skin ulcer of calf
+3,4297400,2006-06-13,2013-08-09,Mild cognitive disorder
+3,439795,2006-06-13,2013-08-09,Minimal cognitive impairment
+3,316437,2006-06-13,2013-08-09,Cerebral atherosclerosis
+3,432867,2006-06-13,2013-08-09,Hyperlipidemia
+3,439795,2006-06-28,2013-08-09,Minimal cognitive impairment
+3,317009,2006-06-28,2013-08-09,Asthma
+3,255573,2006-06-28,2013-08-09,Chronic obstructive lung disease
+3,4297400,2006-06-28,2013-08-09,Mild cognitive disorder
+3,257007,2006-09-26,2013-08-09,Allergic rhinitis
+3,4297400,2008-09-26,2013-08-09,Mild cognitive disorder
+3,439795,2008-10-28,2013-08-09,Minimal cognitive impairment
+3,436070,2008-10-28,2013-08-09,Vitamin D deficiency
+3,432867,2008-12-24,2013-08-09,Hyperlipidemia
+3,439795,2008-12-24,2013-08-09,Minimal cognitive impairment
+3,436962,2008-12-24,2013-08-09,Insomnia
+3,4223659,2008-12-24,2013-08-09,Fatigue
+3,4272240,2008-12-24,2013-08-09,Malaise
+3,376229,2013-08-09,2013-08-09,Abnormal involuntary movement
+3,4297400,2013-08-09,2013-08-09,Mild cognitive disorder

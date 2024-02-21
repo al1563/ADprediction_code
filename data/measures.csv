@@ -1,0 +1,10 @@
+person_id,measurement_date,mindatept,measurement_concept_id,measurement_type_concept_id,value_as_concept_id,range_low,range_high,value_as_number,unit_source_value,measurement_concept_id_value
+5,9/20/13,5/15/25,3024171,32836,,,,12,,Respiratory rate
+5,9/20/13,5/15/25,2212499,32810,0,0,0,,,"Organic acid, single, quantitative"
+5,9/20/13,5/15/25,4137083,32865,0,0,0,0,,Pain intensity rating scale
+5,9/20/13,5/15/25,2212593,32810,0,0,0,,,Thyroid stimulating hormone (TSH)
+5,9/20/13,5/15/25,3009201,32856,,,,1.5,mIU/L,Thyrotropin [Units/volume] in Serum or Plasma
+5,9/20/13,5/15/25,3038553,32836,,,,23,,Body mass index (BMI) [Ratio]
+5,9/20/13,5/15/25,3036277,32836,,,,70,inches,Body height
+5,9/20/13,5/15/25,3025315,32836,,,,2000,ounces,Body weight
+5,9/20/13,5/15/25,2212300,32810,0,0,0,,,Cyanocobalamin (Vitamin B-12)

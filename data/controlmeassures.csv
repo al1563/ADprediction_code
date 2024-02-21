@@ -1,0 +1,10 @@
+person_id,measurement_date,measurement_concept_id,range_low,range_high,value_as_number,value_source_value,unit_source_value,measurement_concept_id_value
+12,3/18/21,3015746,0,0,,,,Specimen source identified
+12,3/18/21,706163,0,0,,,,SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection
+12,9/27/21,4098179,,,,,,Immunology laboratory test
+13,3/23/95,40760844,,,,,mg/dL,Ketones [Presence] in Urine by Automated test strip
+13,3/23/95,3000963,,,12,12,g/dL,Hemoglobin [Mass/volume] in Blood
+13,3/23/95,3020416,,,4,4,x10E12/L,Erythrocytes [#/volume] in Blood by Automated count
+13,6/23/95,3023599,,,90,90,fL,MCV [Entitic volume] by Automated count
+13,6/24/95,3033575,,,0.5,0.5,x10E9/L,Monocytes [#/volume] in Blood by Automated count
+13,6/25/95,3013429,,,0.03,0.03,x10E9/L,Basophils [#/volume] in Blood by Automated count

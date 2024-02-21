@@ -42,12 +42,12 @@ def sqlstring_rd_condition(query):
                                    ,cr.concept_id_2, cc2.concept_name as concept_name2, 
                                    cc2.vocabulary_id as vocabulary_id2, cc2.concept_code as concept_code2 
                                    ,cr.relationship_id 
-                            FROM [OMOP_DEID].[omop].[concept_relationship] cr 
-                            LEFT JOIN [OMOP_DEID].[omop].[concept] cc 
+                            FROM concept_relationship cr 
+                            LEFT JOIN concept cc 
                               on cr.concept_id_1 = cc.concept_id 
-                            LEFT JOIN [OMOP_DEID].[omop].[concept] cc2 
+                            LEFT JOIN concept cc2 
                               on cr.concept_id_2 = cc2.concept_id 
-                            inner join omop_deid.omop.condition_occurrence CO
+                            inner join condition_occurrence CO
                                 on cr.concept_id_2 = CO.condition_concept_id
                             WHERE cc.concept_name like @dz and cr.relationship_id IN ('Mapped from','Subsumes','Concept same_as to')
             )
@@ -56,12 +56,12 @@ def sqlstring_rd_condition(query):
                          ,ca.descendant_concept_id as concept_id_2, cc2.concept_name as concept_name2, 
                          cc2.vocabulary_id as vocabulary_id2, cc2.concept_code as concept_code2 
                          ,CONCAT('ancestor:', ca.min_levels_of_separation,'-',ca.max_levels_of_separation) as relationship_id
-                    FROM [OMOP_DEID].[omop].[concept_ancestor] ca 
-                    LEFT JOIN [OMOP_DEID].[omop].[concept] cc 
+                    FROM concept_ancestor ca 
+                    LEFT JOIN concept cc 
                         on ca.ancestor_concept_id = cc.concept_id 
-                    LEFT JOIN [OMOP_DEID].[omop].[concept] cc2 
+                    LEFT JOIN concept cc2 
                         on ca.descendant_concept_id = cc2.concept_id 
-                    INNER JOIN (select DISTINCT condition_concept_id FROM [OMOP_DEID].[omop].[condition_occurrence]) CO 
+                    INNER JOIN (select DISTINCT condition_concept_id FROM condition_occurrence) CO 
                         on ca.descendant_concept_id = CO.condition_concept_id 
                      WHERE cc.concept_name like @dz 
             )
@@ -93,12 +93,12 @@ def get_ATC_reldesc(qstring):
                          cc2.vocabulary_id as vocabulary_id2, cc2.concept_code as concept_code2 
                          ,CONCAT('ancestor:', ca.min_levels_of_separation,'-',ca.max_levels_of_separation) as relationship_id
                     INTO #ccrelation
-                    FROM [OMOP_DEID].[omop].[concept_ancestor] ca 
-                    LEFT JOIN [OMOP_DEID].[omop].[concept] cc 
+                    FROM concept_ancestor ca 
+                    LEFT JOIN concept cc 
                         on ca.ancestor_concept_id = cc.concept_id 
-                    LEFT JOIN [OMOP_DEID].[omop].[concept] cc2 
+                    LEFT JOIN concept cc2 
                         on ca.descendant_concept_id = cc2.concept_id 
-                    INNER JOIN (select DISTINCT drug_concept_id FROM [OMOP_DEID].[omop].[drug_exposure]) DE 
+                    INNER JOIN (select DISTINCT drug_concept_id FROM drug_exposure) DE 
                         on ca.descendant_concept_id = DE.drug_concept_id 
                     WHERE cc.concept_code like '{}'
             """.format(qstring)
@@ -113,11 +113,11 @@ def get_ATC_reldesc(qstring):
                     ca.descendant_concept_id as ultconcept, cc3.concept_name as ult_name, cc3.vocabulary_id as ult_vocab, 
                     cc3.concept_code as ult_code, CONCAT('ancestor:', ca.min_levels_of_separation,'-',ca.max_levels_of_separation) as ult_relation
             FROM #ccrelation cci
-            LEFT JOIN [OMOP_DEID].[omop].[concept_ancestor] ca 
+            LEFT JOIN concept_ancestor ca 
                 ON ca.ancestor_concept_id = cci.concept_id_2
-            LEFT JOIN [OMOP_DEID].[omop].[concept] cc3
+            LEFT JOIN concept cc3
                 ON ca.descendant_concept_id = cc3.concept_id 
-            INNER JOIN (SELECT DISTINCT drug_concept_id FROM [OMOP_DEID].[omop].[drug_exposure]) DE
+            INNER JOIN (SELECT DISTINCT drug_concept_id FROM drug_exposure) DE
                 ON ca.descendant_concept_id = DE.drug_concept_id 
             )
             UNION
@@ -128,11 +128,11 @@ def get_ATC_reldesc(qstring):
                         ccr2.concept_id_2 as ultconcept, cc3.concept_name as ult_name, cc3.vocabulary_id as ult_vocab,
                         cc3.concept_code as ult_code, ccr2.relationship_id as ult_relation
             FROM #ccrelation as cci
-            LEFT JOIN [OMOP_DEID].[omop].[concept_relationship] ccr2
+            LEFT JOIN concept_relationship ccr2
                 ON cci.concept_id_2 = ccr2.concept_id_1
-            LEFT JOIN [OMOP_DEID].[omop].[concept] cc3
+            LEFT JOIN concept cc3
                 ON ccr2.concept_id_2 = cc3.concept_id
-            INNER JOIN (SELECT DISTINCT drug_concept_id FROM [OMOP_DEID].[omop].[drug_exposure]) DE
+            INNER JOIN (SELECT DISTINCT drug_concept_id FROM drug_exposure) DE
                 ON DE.drug_concept_id = cc3.concept_id
             )
             """
@@ -156,10 +156,10 @@ def get_icd10_reldesc(qstring):
             SELECT cr.concept_id_1, cc.concept_name, cc.vocabulary_id, cc.concept_code ,cr.concept_id_2, cc2.concept_name as concept_name2, 
                  cc2.vocabulary_id as vocabulary_id2, cc2.concept_code as concept_code2,cr.relationship_id
             INTO ##ccrelation
-            FROM [OMOP_DEID].[omop].[concept_relationship] cr
-            LEFT JOIN [OMOP_DEID].[omop].[concept] cc
+            FROM concept_relationship cr
+            LEFT JOIN concept cc
                 ON cr.concept_id_1 = cc.concept_id
-            LEFT JOIN [OMOP_DEID].omop.[concept] cc2
+            LEFT JOIN concept cc2
                 ON cr.concept_id_2 = cc2.concept_id
             WHERE(cc.concept_code LIKE '{}' AND cc.vocabulary_id LIKE '%ICD10CM%')
                 AND cr.relationship_id IN ('Subsumes','Is a', 'Maps to')""".format(qstring)
@@ -174,11 +174,11 @@ def get_icd10_reldesc(qstring):
                     ca.descendant_concept_id as ultconcept, cc3.concept_name as ult_name, cc3.vocabulary_id as ult_vocab, 
                     cc3.concept_code as ult_code, CONCAT('ancestor:', ca.min_levels_of_separation,'-',ca.max_levels_of_separation) as ult_relation
             FROM ##ccrelation cci
-            LEFT JOIN [OMOP_DEID].[omop].[concept_ancestor] ca 
+            LEFT JOIN concept_ancestor ca 
                 ON ca.ancestor_concept_id = cci.concept_id_2
-            LEFT JOIN [OMOP_DEID].[omop].[concept] cc3
+            LEFT JOIN concept cc3
                 ON ca.descendant_concept_id = cc3.concept_id 
-            INNER JOIN (SELECT DISTINCT condition_concept_id FROM [OMOP_DEID].[omop].[condition_occurrence]) CO 
+            INNER JOIN (SELECT DISTINCT condition_concept_id FROM condition_occurrence) CO 
                 ON ca.descendant_concept_id = CO.condition_concept_id 
             )
             UNION
@@ -189,11 +189,11 @@ def get_icd10_reldesc(qstring):
                         ccr2.concept_id_2 as ultconcept, cc3.concept_name as ult_name, cc3.vocabulary_id as ult_vocab,
                         cc3.concept_code as ult_code, ccr2.relationship_id as ult_relation
             FROM ##ccrelation as cci
-            LEFT JOIN [OMOP_DEID].[omop].[concept_relationship] ccr2
+            LEFT JOIN concept_relationship ccr2
                 ON cci.concept_id_2 = ccr2.concept_id_1
-            LEFT JOIN [OMOP_DEID].[omop].[concept] cc3
+            LEFT JOIN concept cc3
                 ON ccr2.concept_id_2 = cc3.concept_id
-            INNER JOIN (SELECT DISTINCT condition_concept_id FROM [OMOP_DEID].[omop].[condition_occurrence]) CO 
+            INNER JOIN (SELECT DISTINCT condition_concept_id FROM condition_occurrence) CO 
                 ON CO.condition_concept_id = cc3.concept_id
             WHERE ccr2.relationship_id IN ('Subsumes','Maps to','Mapped from')
             )"""

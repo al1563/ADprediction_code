@@ -1,0 +1,10 @@
+person_id,drug_concept_id,drug_type_concept_id,dose_unit_concept_id,drug_exposure_start_date,drug_exposure_end_date,effective_drug_dose,dose_unit_source_value,refills,quantity,sig,route_source_value,drug_concept_id_value,drug_type_concept_id_value
+12,40213271,0,,8/8/16,8/8/16,,,,1,,,Bacillus Calmette-Guerin vaccine,No matching concept
+12,40213230,0,,10/31/16,10/31/16,,,,1,,,"tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed",No matching concept
+12,40213230,0,,11/28/19,11/28/19,,,,1,,,"tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed",No matching concept
+12,40213209,0,,3/29/21,3/29/21,,,,1,,,"rabies vaccine, unspecified formulation",No matching concept
+12,40213141,0,,4/17/21,4/17/21,,,,1,,,"influenza, high dose seasonal, preservative-free",No matching concept
+13,40213311,0,,5/2/97,5/2/97,,,,1,,,"herpes simplex virus, type 2 vaccine",No matching concept
+13,40213230,0,,12/31/07,12/31/07,,,,1,,,"tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed",No matching concept
+13,45892055,32839,,3/6/10,3/6/10,,,,,,,olopatadine 7 MG/ML Ophthalmic Solution,EHR prescription issue record
+13,967434,32839,,12/3/19,12/3/19,,,,,,,simethicone 80 MG Chewable Tablet,EHR prescription issue record

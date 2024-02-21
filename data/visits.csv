@@ -1,0 +1,10 @@
+visit_occurrence_id,person_id,visit_start_date,visit_concept_id,care_site_id,care_site_name,provider_id,specialty_source_value,visit_concept_id_value
+1,2,2/5/00,581477,,Memory Center,2,,Office Visit
+2,2,2/5/00,581477,,Memory Center,3,Neurology,Office Visit
+3,2,2/5/00,581477,,Memory Center,2,,Office Visit
+4,2,2/5/00,581477,,Memory Center,2,,Office Visit
+5,2,1/3/12,581477,,Memory Center,2,,Office Visit
+6,4,4/4/04,581477,,Memory Center,2,,Office Visit
+7,4,4/4/04,581477,,Memory Center,2,,Office Visit
+8,5,2/5/13,581477,,Memory Center,2,,Office Visit
+9,5,2/5/13,581477,,Memory Center,2,,Office Visit

@@ -1,0 +1,92 @@
+person_id,condition_concept_id,condition_start_date,condition_concept_id_value
+12,139099,2019-01-02,Ingrowing nail
+12,436962,2021-01-06,Insomnia
+12,442752,2021-01-06,Muscle pain
+12,80180,2021-01-06,Osteoarthritis
+12,762297,2021-03-11,Pain in right knee
+12,80180,2021-03-11,Osteoarthritis
+12,762289,2021-03-11,Pain in left knee
+12,46273539,2021-03-15,Acute bronchospasm
+13,312349,1994-09-04,Venous varices
+13,318169,1994-09-04,Varicose veins of lower extremity
+13,437663,1994-09-04,Fever
+13,73008,1994-12-24,Enthesopathy
+13,437663,1994-12-24,Fever
+13,375552,1994-12-24,Pterygium
+13,318169,1994-12-24,Varicose veins of lower extremity
+13,4043371,1994-12-24,Inflammatory disorder of digestive tract
+13,4168226,1994-12-24,Micturition frequency and polyuria
+13,312349,1994-12-24,Venous varices
+13,134441,1994-12-24,Chronic ulcer of skin
+13,379019,1994-12-24,Conjunctivitis
+13,379031,2000-02-23,Pain in eye
+13,4038502,2000-02-23,Eye / vision finding
+13,375552,2000-02-23,Pterygium
+13,192671,2000-05-04,Gastrointestinal hemorrhage
+13,434402,2000-05-05,Acute duodenal ulcer with hemorrhage but without obstruction
+13,201340,2000-05-05,Gastritis
+13,4027729,2000-05-05,Acute duodenal ulcer with hemorrhage
+13,137977,2000-05-05,Jaundice
+13,140648,2000-12-24,Onychomycosis due to dermatophyte
+13,4043371,2000-12-24,Inflammatory disorder of digestive tract
+13,4198381,2000-12-24,Ulcer of duodenum
+13,318169,2000-12-24,Varicose veins of lower extremity
+13,312349,2000-12-24,Venous varices
+13,197913,2000-12-24,Disorder of function of stomach
+13,197381,2000-12-24,Epigastric pain
+13,4291028,2000-12-24,Peptic ulcer without hemorrhage AND without perforation
+13,4000609,2000-12-24,Disorder of upper gastrointestinal tract
+13,318800,2000-12-24,Gastroesophageal reflux disease
+13,195847,2000-12-24,Gastroparesis syndrome
+13,4144111,2000-12-24,Gastroesophageal reflux disease without esophagitis
+13,433516,2000-12-24,Duodenitis
+13,140027,2002-01-23,Herpetic gingivostomatitis
+13,200219,2002-01-23,Abdominal pain
+13,4043371,2002-01-23,Inflammatory disorder of digestive tract
+13,318736,2002-01-23,Migraine
+13,312349,2002-09-07,Venous varices
+13,4027663,2002-09-07,Peptic ulcer
+13,201069,2002-09-07,"Peptic ulcer without hemorrhage, without perforation AND without obstruction"
+13,200219,2003-01-01,Abdominal pain
+13,75576,2003-01-01,Irritable bowel syndrome
+13,23325,2003-01-01,Heartburn
+13,197381,2003-01-01,Epigastric pain
+13,194175,2003-01-01,Left upper quadrant pain
+13,23325,2003-02-22,Heartburn
+13,77670,2003-02-22,Chest pain
+13,23325,2003-03-07,Heartburn
+13,200219,2003-03-07,Abdominal pain
+13,197988,2003-03-22,Generalized abdominal pain
+13,197913,2003-04-24,Disorder of function of stomach
+13,197381,2003-04-24,Epigastric pain
+13,4000609,2003-04-24,Disorder of upper gastrointestinal tract
+13,375552,2003-11-13,Pterygium
+13,197913,2003-11-13,Disorder of function of stomach
+13,197381,2003-11-13,Epigastric pain
+13,318169,2003-12-10,Varicose veins of lower extremity
+13,312349,2003-12-10,Venous varices
+13,372924,2005-02-24,Cerebral artery occlusion
+13,134057,2005-02-25,Disorder of cardiovascular system
+13,444239,2005-02-25,Postprocedural state finding
+13,312349,2005-02-25,Venous varices
+13,132706,2005-09-22,Disorder of nail
+13,432867,2005-12-06,Hyperlipidemia
+13,137213,2005-12-13,Dermal mycosis
+13,4077081,2005-12-13,Superficial mycosis
+13,137213,2006-02-23,Dermal mycosis
+13,4077081,2006-02-23,Superficial mycosis
+13,81902,2006-06-26,Urinary tract infectious disease
+13,321596,2007-02-21,Peripheral venous insufficiency
+13,193322,2007-02-21,Right lower quadrant pain
+13,444239,2007-02-21,Postprocedural state finding
+13,138525,2007-02-21,Pain in limb
+13,321596,2007-03-20,Peripheral venous insufficiency
+13,200219,2007-04-03,Abdominal pain
+13,75860,2007-04-03,Constipation
+13,138525,2007-04-03,Pain in limb
+13,200219,2007-05-07,Abdominal pain
+13,197610,2007-05-15,Cyst of ovary
+13,23325,2007-07-19,Heartburn
+13,4091513,2007-07-19,Passing flatus
+13,4152350,2007-07-19,Burping
+13,4263576,2007-07-19,Abdominal wind pain
